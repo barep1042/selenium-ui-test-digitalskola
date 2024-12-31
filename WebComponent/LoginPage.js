@@ -10,8 +10,8 @@ class LoginPage{
 
     }
 
-    async navigate(){
-        await this.driver.get("https://www.saucedemo.com/");
+    async navigate(browser){
+        await this.driver.get(browser);
 
     }
 
